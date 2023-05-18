@@ -1,0 +1,96 @@
+.rompelinks {
+    pointer-events: none;
+    cursor: default;
+    background-color:#ff3131;
+    margin-top: 0;
+}
+
+.subrayado {
+  background-color: #ff313175;
+  color: white;
+  border-radius: 12px;
+  padding: 20px 20px 0px 20px;
+}
+
+.subrayado2 {
+  background-color: #ff313175;
+  border-radius: 12px;
+  padding: 20px 20px 20px 20px;
+}
+
+
+.subrayado-principal2{
+  border-color: white;
+  border-radius: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  color: #201B5B;
+}
+
+.formulario {
+  border-radius: 16px;
+  border: 1px solid salmon;
+  padding: 10px;
+  
+}
+
+.boton-enviar{
+  border-radius: 16px;
+  border: 1px solid salmon;
+  padding: 20px;
+  transition: all 0.5s ease-in-out;
+}
+
+.boton-enviar:hover {
+  color: white;
+  background-color: #ff3131;
+}
+
+.form{
+  color: white;
+  font-size: 1.5rem;
+}
+
+.asimilar {
+width: 564px;
+height: 422px;
+margin-left: 30px;
+}
+
+.consulta{
+  padding: 30px;
+}
+.red {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.containers {
+  font-size: 1em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #201B5B;
+}
+
+.argentina{
+  font-size: 1em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* floating */
+.floating { 
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+  }
+  
+  @keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }   
+  }
+  /* floating */
+  
